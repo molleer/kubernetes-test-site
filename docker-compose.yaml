@@ -1,0 +1,8 @@
+version: "3"
+services:
+  site:
+    image: mollee/kubernetes-test-site
+    environment:
+      GIN_MODE: release
+    ports:
+      - 80:80
