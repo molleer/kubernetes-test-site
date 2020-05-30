@@ -9,4 +9,4 @@
 
 Add the ip from `minikube service test-site --url` to the `/etc/hosts` file
 
-kubernetes-test-site should be running at `mollers.se`
+kubernetes-test-site should be running at `mollers.se` 
