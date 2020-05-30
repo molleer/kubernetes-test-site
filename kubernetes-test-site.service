@@ -1,0 +1,12 @@
+[Unit]
+Description=A testsite
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/sh /home/davidm/builds/kubernetes-test-site/startup.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
