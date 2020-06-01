@@ -6,10 +6,17 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
   rules:
-  - host: mollers.se
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: test-site
-          servicePort: 8080
+    - host: kube.mollers.site
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: test-site
+              servicePort: 8080
+    - host: testsite.mollers.site
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: test-site
+              servicePort: 8080
