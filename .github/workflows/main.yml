@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Blame Alert
-        uses: molleer/blame-alert@main
+        uses: molleer/blame-alert@master
