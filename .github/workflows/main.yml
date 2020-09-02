@@ -8,5 +8,3 @@ jobs:
     steps:
       - name: Blame Alert
         uses: molleer/blame-alert@master
-        with:
-          ACTIONS_RUNNER_DEBUG: true
