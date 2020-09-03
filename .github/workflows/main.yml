@@ -1,12 +1,13 @@
 name: CI
 
 on:
-  pull_request:
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Blame Alert
+        uses: molleer/blame-alert@master
         uses: molleer/blame-alert
       - name: Hello world
         run: echo "Hello world"
