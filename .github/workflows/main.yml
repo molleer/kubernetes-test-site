@@ -11,3 +11,5 @@ jobs:
           ref: ${{ github.context.payload.pull_request.base.ref }}
       - name: Blame Alert
         uses: molleer/blame-alert@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
