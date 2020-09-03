@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.context.payload.pull_request.base.ref }}
       - name: Blame Alert
         uses: molleer/blame-alert@master
