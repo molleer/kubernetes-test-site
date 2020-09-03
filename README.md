@@ -20,3 +20,7 @@ kubernetes-test-site should be running at `mollers.se`
 ```
 
 Traefik will work as you default ingress controller
+
+# Gihub Actions
+
+Coming documentation soon
