@@ -11,3 +11,4 @@ jobs:
         uses: molleer/blame-alert@master
       - name: Hello world
         run: ls -l
+      - uses: actions/hello-world-javascript-action@main
