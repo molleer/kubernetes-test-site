@@ -9,4 +9,4 @@ jobs:
       - name: Blame Alert
         uses: molleer/blame-alert@master
       - name: Hello world
-        run: echo "Hello world"
+        run: ls -l
