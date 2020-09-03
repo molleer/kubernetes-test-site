@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: Blame Alert
         uses: molleer/blame-alert
+      - name: Hello world
+        run: echo "Hello world"
